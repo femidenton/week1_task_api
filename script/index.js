@@ -1,7 +1,18 @@
 function main() {}
     const charactersParentDiv =  document.getElementById('characters');
     const detailsBlock = document.getElementById('details-block')
-   
+   const pictures = [
+    "img/skywalker.jpg", 
+    'img/C-3PO.webp', 
+    'img/R2-D2.webp', 
+    'img/Darth-Vader.webp',
+    "img/Leia-Organa.webp",
+    "img/Owen-Lars.webp",
+    "img/Beru-Whitesun-lars.webp",
+    "img/R5-d4.webp",
+    "img/biggs-darklighter.jpeg",
+    "img/obi-wan.webp" 
+   ]
 
     fetch('https://swapi.dev/api/people')
     .then(data => data.json())
@@ -45,10 +56,14 @@ function main() {}
                 
 
 
-           
+        
 
                 detailsBlock.innerHTML = 
                 ` <div>
+                    <div class='char_pic'> 
+                        <img src=${pictures[index]} alt="">
+                    </div>
+                    
                     <p>Name:  ${character.name} </p>
                     <p>Height:  ${character.height} </p>
                     <p>Mass:  ${character.mass} </p>

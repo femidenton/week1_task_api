@@ -25,7 +25,7 @@ html {
 .container{
   width: 90%;
   margin: 0 auto;
-  padding: 15vh;
+  padding: 7vh 15vh;
   
   display: flex;
   flex-direction: row;
@@ -44,4 +44,16 @@ html {
 .details-block p{
   display: inline-block;
   margin-right: 1rem;
+}
+.char_pic{
+  height: 20rem;
+  width: 30rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.char_pic img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  border: 5px solid yellow;
 }
