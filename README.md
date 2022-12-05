@@ -1,25 +1,23 @@
-# WEEK-TWO-NODE
+# Week-One-Node
 
 ## Problem Description:
 
-You are to create a Todo application using HTML, CSS and Vanilla JavaScript. 
+You are to create a SPA (Single Page Application) using HTML, CSS and JavaScript. It shows all characters from a star wars API (https://swapi.dev/api/people). Read the documentation and implement as follows.
 
-### Requirements 
+### Process ?
 
-1.Users should be able to add todo items
+1. Display an image for each of the characters. Preferrably a unique image for each but you could also choose to use a dummy image for all of them.
 
-2.Users should be able to edit todo items
+2. Make a HTTP request to the star wars API and use the result from the request to populate your frontend application
 
-- For every todo item created, the date and time the todo was created should be part of the items created.
-- The date and time should be in a proper date format. ie thursday, 10 february 2022, 12:24
+- Display a list with the names of each person from the API request.
+- On Clicking any name, display the details of that user on the screen, with name, gender, height only
 
-3.Users should be able to delete todo items
+3. All implementations should be done using es6.
 
-4.Users should be able to search for todos.
+4. Make your design pretty and responsive.
 
-5.When you are done, host your application on heroku or netlify (Link should be added to your turned in field on Teams)
+5. When you are done, host your application on netlify (submit link should be added to your turned in field on Teams)
 
 
-### Sample Screenshot(Design the way you want it, this is just a sample)
-
-![Screenshot 2022-06-30 at 00 56 40](https://user-images.githubusercontent.com/60100544/176565419-ce227836-6536-47aa-9d04-92bb4fc5928a.png)
+# week-1-task-api

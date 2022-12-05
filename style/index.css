@@ -4,8 +4,56 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: black;
+  color: yellow;
 }
-
-.edit{
-  display: none;
+.image-div{
+  width: 22rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+.image-header{
+  max-width: 100%;
+  max-height: 100%;
+}
+/* .headText{
+  text-align: center;
+  margin-top: 6rem;
+} */
+.container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 7vh 15vh;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.character{
+  display: inline-block;
+  padding: .5rem;
+  cursor: pointer;
+}
+.details-block{
+  width: 90%;
+  margin: 0 auto;
+  padding: 5vh 15vh;
+}
+.details-block p{
+  display: inline-block;
+  margin-right: 1rem;
+}
+.char_pic{
+  height: 20rem;
+  width: 30rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.char_pic img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  border: 5px solid yellow;
 }
